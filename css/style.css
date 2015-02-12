@@ -1,0 +1,28 @@
+#main_logo {
+	
+	text-align: center;
+	padding: 200px 10px 10px 10px;
+
+}
+
+
+#search {
+
+	text-align: center;
+
+}
+
+#search form :first-child {
+	
+	width: 33%;
+	margin-bottom: 10px;
+
+}
+
+#search form input {
+
+	margin-left: 5px;
+	margin-right: 5px;
+	
+}
+
