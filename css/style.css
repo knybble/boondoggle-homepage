@@ -1,7 +1,7 @@
 #top_bar {
 	
 	text-align: right;
-	padding: 20px;
+	padding: 10px;
 }
 
 a {
@@ -10,6 +10,7 @@ a {
 	font-size: 13px;
 	color: #404040;
 	margin: 5px;
+	display: inline-block;
 
 }
 
@@ -27,18 +28,17 @@ a:hover, a:active {
 
 #top_bar :nth-child(4) {
 
-	background-color:  #707070;
-	padding: 4px 12px;
 
 }
 
-#top_bar :nth-child(4):hover {
+#top_bar :nth-child(4):hover, #top_bar :nth-child(5):hover {
 
-	background-color: #000000;
+	text-decoration: none;
 
 }
 
 #top_bar :nth-child(5) {
+	
 	color: #FFFFFF;
 	background-color: #4285F4;
 	font-weight: bold;
@@ -49,7 +49,7 @@ a:hover, a:active {
 #main_logo {
 	
 	text-align: center;
-	padding: 130px 10px 10px 10px;
+	padding: 150px 10px 10px 10px;
 
 }
 
@@ -96,4 +96,18 @@ a:hover, a:active {
 	margin: 0px 35px;
 }
 
+table {
+	
+	border-collapse: collapse;
+	position: relative;
+	top: 10px;
 
+}
+
+td {
+
+	border: 2px solid white;
+	background-color: #777;
+	padding: 2px;
+
+}
