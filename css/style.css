@@ -1,7 +1,54 @@
+#top_bar {
+	
+	text-align: right;
+	padding: 20px;
+}
+
+#top_bar a {
+
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #404040;
+	margin: 5px;
+
+	}
+
+#top_bar :nth-child(4) {
+
+	background-color:  #404040;
+	padding: 4px 12px;
+
+}
+
+#top_bar :nth-child(4):hover {
+
+	background-color: #000000;
+
+}
+
+#top_bar :nth-child(5) {
+	color: #FFFFFF;
+	background-color: #4285F4;
+	font-weight: bold;
+	padding: 8px 16px;
+}
+
+#top_bar a:link, #top_bar a:visited {
+
+	text-decoration: none;
+
+}
+
+#top_bar a:hover, #top_bar a:active {
+	
+	text-decoration: underline;
+
+}
+
 #main_logo {
 	
 	text-align: center;
-	padding: 200px 10px 10px 10px;
+	padding: 130px 10px 10px 10px;
 
 }
 
@@ -23,6 +70,8 @@
 
 	margin-left: 5px;
 	margin-right: 5px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
 	
 }
 
