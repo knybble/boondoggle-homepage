@@ -1,0 +1,175 @@
+#top_bar {
+	
+	text-align: right;
+	padding: 10px;
+	background-color: #EEEEEE;
+}
+
+a {
+
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #404040;
+	margin: 5px;
+	display: inline-block;
+
+}
+
+p {
+	font-family: arial, sans-serif;
+}
+
+a:link, a:visited {
+
+	text-decoration: none;
+
+}
+
+a:hover, a:active {
+	
+	text-decoration: underline;
+
+}
+
+#top_bar :nth-child(4) {
+
+
+}
+
+#top_bar :nth-child(4):hover, #top_bar :nth-child(5):hover {
+
+	text-decoration: none;
+
+}
+
+#top_bar :nth-child(5) {
+	
+	color: #FFFFFF;
+	background-color: #4285F4;
+	font-weight: bold;
+	padding: 8px 16px;
+	border-radius: 2px;
+}
+
+#sugg_start {
+
+	font-size: 18px;
+	color: red;
+
+}
+
+#results {
+
+	margin-left: 10%;
+	margin-right: 50%;
+
+}
+
+#results div {
+
+	margin: 20px 0px;
+
+}
+
+#results div p {
+
+	margin: 0;
+
+}
+
+#results div a {
+
+	margin: 0;
+
+}
+
+#results div a:hover {
+
+	text-decoration: underline;
+
+}
+
+
+.r_title {
+
+	font-size: 18px;
+	color: blue;
+
+}
+
+.r_link {
+
+	font-size: 14px;
+	color: green;
+}
+
+.r_desc {
+	font-size: 14px;
+}
+
+
+#main_logo {
+	
+	text-align: center;
+	padding: 150px 10px 10px 10px;
+
+}
+
+
+#search {
+
+	text-align: center;
+
+}
+
+#search form :first-child {
+	
+	width: 33%;
+	margin-bottom: 10px;
+
+}
+
+#search form input {
+
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	
+}
+
+#bottom_bar {
+
+	background-color: #EEEEEE;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+
+}
+
+#bottom_bar div {
+	display: inline;
+}
+
+#bottom_bar div a {
+	margin: 0px 35px;
+}
+
+table {
+	
+	border-collapse: collapse;
+	position: relative;
+	top: 10px;
+
+}
+
+td {
+
+	border: 2px solid #EEEEEE;
+	background-color: #777;
+	padding: 2px;
+
+}
